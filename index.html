@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emiliano Sánchez López | Portafolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --border-color: #30363d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 3.5rem 1rem;
+            background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+        h1 { color: #fff; margin-bottom: 0.5rem; font-size: 2.2rem; }
+        .subtitle { color: var(--accent-color); font-weight: 600; font-size: 1.1rem; }
+        .container { max-width: 900px; margin: 0 auto; padding: 2.5rem 1rem; }
+        .section-title { border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; color: #fff; margin-bottom: 1.5rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-color);
+        }
+        .card h3 { color: var(--accent-color); margin-top: 0; margin-bottom: 0.5rem; }
+        .tag {
+            display: inline-block;
+            background: #21262d;
+            border: 1px solid var(--border-color);
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            margin-right: 0.4rem;
+            margin-top: 0.5rem;
+        }
+        ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+        li { margin-bottom: 0.4rem; }
+        footer { text-align: center; padding: 2rem; border-top: 1px solid var(--border-color); font-size: 0.95rem; }
+        a { color: var(--accent-color); text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Emiliano Sánchez López</h1>
+        <p class="subtitle">Desarrollador de Software en Formación | Apasionado por la Tecnología y las Matemáticas</p>
+    </header>
+
+    <div class="container">
+        <!-- SECCIÓN PROYECTOS -->
+        <section>
+            <h2 class="section-title">🚀 Proyectos Destacados</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Cronos Valor 2030</h3>
+                    <p>Software de simulación financiera multiplataforma diseñado para el análisis y proyección de datos.</p>
+                    <p>
+                        <span class="tag">Software</span>
+                        <span class="tag">Simulación</span>
+                        <span class="tag">Multiplataforma</span>
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>[Nombre de tu 2.° Proyecto]</h3>
+                    <p>Descripción breve de las funcionalidades y herramientas utilizadas en este proyecto.</p>
+                    <p>
+                        <span class="tag">Desarrollo</span>
+                        <span class="tag">Código</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN LOGROS Y DISTINCIONES -->
+        <section style="margin-top: 3rem;">
+            <h2 class="section-title">🏆 Logros & Competencias</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Olimpiadas de Matemáticas</h3>
+                    <ul>
+                        <li>🥈 Medalla de Plata – Olimpiada Mexicana de Matemáticas (OMM)</li>
+                        <li>🥉 Medalla de Bronce – OMAEB</li>
+                        <li>🥉 Medalla de Bronce – Concurso Gauss</li>
+                        <li>📜 Mención Honorífica – Contest Fermat</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Ajedrez Competitivo</h3>
+                    <ul>
+                        <li>🥈 2.° Lugar Nacional – Torneo Promesas Mexicanas</li>
+                        <li>🌐 7.° Lugar Internacional – Torneo Promesas Mexicanas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Conéctate conmigo: <a href="https://github.com/TU_USUARIO" target="_blank">GitHub</a> | <a href="TU_LINKEDIN" target="_blank">LinkedIn</a></p>
+    </footer>
+
+</body>
+</html>
